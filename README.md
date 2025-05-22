@@ -16,6 +16,8 @@ locust -f .\locustfile.py --web-port 8090
 #To run the locust tests in headless mode run below command
 locust -f locustfile.py --headless -u 10 -r 1 --run-time 30s
 
+#To ignore particular directory for commit
+git rm -r  reports/   
 
 
 **Locust Documentation**
