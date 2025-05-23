@@ -19,7 +19,8 @@ locust -f locustfile.py --headless -u 10 -r 1 --run-time 30s
 #To ignore particular directory for commit
 git rm -r  reports/   
 
-#
+#git url
+https://github.com/santhhosh/Locust_Project
 
 
 **Locust Documentation**
